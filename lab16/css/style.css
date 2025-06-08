@@ -1,0 +1,32 @@
+/* center everything and give a little breathing room */
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: #f0f0f0;
+  margin: 0;
+}
+#comic-container {
+  max-width: 600px;
+  text-align: center;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#comic-image {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+#comic-alt {
+  font-style: italic;
+  color: #555;
+}
+#comic-date {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 0.5rem;
+}
